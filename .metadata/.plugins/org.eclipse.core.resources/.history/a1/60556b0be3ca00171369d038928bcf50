@@ -1,0 +1,5 @@
+package col.financial.controller;
+
+public class ProcessPurchaseStocksServlet {
+
+}

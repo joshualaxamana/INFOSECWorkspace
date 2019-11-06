@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Machine Problem - Mutual Fund</title>
+</head>
+<body>
+	<h2>Machine Problem - Mutual Fund</h2>
+	
+	<fieldset>
+		<legend>Mutual Fund Form</legend>
+		<form action='processmutualfund.action' method='post'>
+			<p>Enter Investor Name:
+				<input type='text' name='name' id='name' 
+					size='50' required="required"/>
+			</p>
+			<p>Mutual Fund Type:
+				<input type='text' name='type' id='type' 
+					size='50' required="required"/>
+			</p>
+			<p>Amount to Invest: Php 
+				<input type="number" name='amount' id='amount' 
+					min="1000" max="10000000" required="required"/>
+			</p>
+			<p>
+				<input type="submit" value='Buy Mutual Fund'/>&nbsp;&nbsp;&nbsp;
+				<input type="reset"/>
+			</p>
+		</form>
+	</fieldset>
+	<hr/>
+	<form action="listallrecords.action">
+		<input type="submit" value="View ALL Records">
+	</form>
+</body>
+</html>

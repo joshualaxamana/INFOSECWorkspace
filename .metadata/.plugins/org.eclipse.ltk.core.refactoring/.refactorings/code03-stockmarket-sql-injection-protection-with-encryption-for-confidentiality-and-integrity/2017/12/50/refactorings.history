@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;index.jsp&apos; to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos;code03-stockmarket-sql-injection-protection-with-encryption-for-confidentiality-and-integrity&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original element: &apos;index.jsp&apos;" description="Copy file" element1="web/index.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1513159500848" target="/infosec-paculan/WebContent/WEB-INF" units="0" version="1.0"/>
+</session>

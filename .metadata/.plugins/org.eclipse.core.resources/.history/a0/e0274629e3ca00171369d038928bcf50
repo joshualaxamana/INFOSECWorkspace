@@ -1,0 +1,5 @@
+package col.financial.model;
+
+public class InvestorBean {
+
+}

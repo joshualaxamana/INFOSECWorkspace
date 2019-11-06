@@ -1,0 +1,5 @@
+127.0.0.1 - - [22/Nov/2017:19:54:54 +0800] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [22/Nov/2017:19:54:56 +0800] "GET /MachineProblem1/index.jsp HTTP/1.1" 200 1514
+0:0:0:0:0:0:0:1 - - [22/Nov/2017:19:54:58 +0800] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [22/Nov/2017:19:55:12 +0800] "POST /MachineProblem1/processmutualfund.action HTTP/1.1" 200 1143
+0:0:0:0:0:0:0:1 - - [22/Nov/2017:19:55:13 +0800] "GET /MachineProblem1/listallrecords.action? HTTP/1.1" 200 3129

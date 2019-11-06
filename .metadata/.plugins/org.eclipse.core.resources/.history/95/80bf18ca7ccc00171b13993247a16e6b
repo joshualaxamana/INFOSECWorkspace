@@ -1,0 +1,5 @@
+package machine.problem.model;
+
+public class InvestorBean {
+
+}

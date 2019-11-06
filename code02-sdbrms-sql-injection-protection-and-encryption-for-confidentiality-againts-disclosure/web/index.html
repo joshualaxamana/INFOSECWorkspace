@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DLS-CSB Student Registration Database Management System</title>
+</head>
+<body>
+	<h2>DLS-CSB Student Registration Database Management System</h2>
+	<fieldset>
+		<legend>DLS-CSB SRDBMS Form</legend>
+		<form action="processregistration.action" method="post">
+			<p>Enter Student ID:
+				<input type="number" name="studentId" id="studentId" 
+					size="20" required="required"/> 
+			</p>
+			<p>Enter Last Name:
+				<input type="text" name="lastName" id="lastName" 
+					size="35" required="required"/> 
+			</p>
+			<p>Enter First Name:
+				<input type="text" name="firstName" id="firstName" 
+					size="35" required="required"/> 
+			</p>
+			<p>Select Year Level:
+				<select id='yearLevel' name='yearLevel'>
+					<option value="1">Freshman</option>
+					<option value="2">Sophomore</option>
+					<option value="3">Junior</option>
+					<option value="4">Senior</option>
+				</select> 
+			</p>
+			<p>Select Course:
+				<select id='course' name='course'>
+					<option value="BS-CA">BS in Computer Applications</option>
+					<option value="BS-IS">BS in Information Systems</option>
+					<option value="BS-GDD">BS in Game Design and Development</option>
+					<option value="BS-FBM">BS in FaceBook Management</option>
+					<option value="BS-TM">BS in Twitter Management</option>
+					<option value="BS-DOT-LOL">BS in DOTA and LOL</option>
+					<option value="BS-YTBW">BS in YouTube Watching Major in Non-stop</option>
+				</select> 
+			</p>
+			<p>
+				<input type="submit" value="Register"/>&nbsp;&nbsp;&nbsp;
+				<input type="reset"/>
+			</p>
+		</form>
+	</fieldset>
+	<hr/>
+	<form action='listrecords.action'>
+		<input type="submit" value="View ALL Records">
+	</form>
+</body>
+</html>
